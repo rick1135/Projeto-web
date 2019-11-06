@@ -1,0 +1,38 @@
+body{
+	font-family: 'Merriweather', serif;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	background-image: url(../img/background32.jpg);
+}
+
+
+.botao{
+	color: white;
+	background: rgba(128, 0, 128, .9);
+	border-color: rgba(128, 0, 128, .9);
+}
+
+.botao:active,
+.botao:hover{
+	color: white;
+	background: rgba(128, 0, 128, 1);
+	border-color: rgba(128, 0, 128, 1);
+}
+
+.logotipo{
+  font-family: 'Courgette', cursive;
+  color: #800080;
+}
+
+.form{
+	background-color: white;
+	min-width: 30%;
+	border-radius: 5%;
+}
+
+#cabecalho{
+	width: 100%;
+	background-color: white;
+}
+
